@@ -1,1 +1,1 @@
-# compare-ml-vs-population
+# Compare Ml and schools
