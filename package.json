@@ -1,0 +1,34 @@
+{
+  "name": "compare-schools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@mapbox/tile-cover": "^3.0.2",
+    "@mapbox/tile-reduce": "^3.3.0",
+    "@turf/turf": "^5.1.6",
+    "minimist": "^1.2.0",
+    "rbush": "^2.0.2",
+    "underscore": "^1.9.1"
+  },
+  "bin": {
+    "compareschools": "index.js"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --single-quote --write --print-width 120  *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rub21/compare-ml-vs-population.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rub21/compare-ml-vs-population/issues"
+  },
+  "homepage": "https://github.com/Rub21/compare-ml-vs-population#readme"
+}
